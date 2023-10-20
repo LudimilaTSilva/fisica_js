@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
@@ -33,6 +37,38 @@
 
 header {
     background-color: red;
+}
+
+main {
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title_fisica {
+    font-size: 60px;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 20px;
+}
+.texto_exp {
+    font-size: 25px;
+}
+
+.exem_ques {
+    font-weight: bold;
+    font-size: 35px;
+}
+.resolucao {
+    font-weight: bold;
+}
+
+.respostas {
+    font-size: 25px;
+    margin-top: 15px;
 }
 
 footer {
