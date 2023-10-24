@@ -71,6 +71,10 @@ main {
     margin-top: 15px;
 }
 
+#carro {
+    width: 450px;
+}
+
 footer {
     background-color: red;
 }
