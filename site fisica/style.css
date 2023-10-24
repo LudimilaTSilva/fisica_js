@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/*--------------------------------------GRID--------------------------------------*/
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
@@ -32,13 +33,29 @@
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
 /*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+/*--------------------------------------GRID--------------------------------------*/
 
 
 
+/*--------------------------------------HEADER--------------------------------------*/
 header {
     background-color: red;
+    min-height: 120px;
+    position: relative;
+    margin-bottom: 20px;
 }
 
+.headfootcont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*--------------------------------------HEADER--------------------------------------*/
+
+
+
+/*--------------------------------------BODY--------------------------------------*/
 main {
     text-align: center;
     justify-content: center;
@@ -75,6 +92,21 @@ main {
     width: 450px;
 }
 
+.verde {
+    color: green;
+}
+.vermelho {
+    color: red;
+}
+/*--------------------------------------BODY--------------------------------------*/
+
+
+
+/*--------------------------------------FOOTER--------------------------------------*/
 footer {
     background-color: red;
+    min-height: 120px;
+    position: relative;
+    margin-bottom: 20px;
 }
+/*--------------------------------------FOOTER--------------------------------------*/

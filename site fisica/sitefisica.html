@@ -6,13 +6,18 @@
         <title>INÉRCIA - Física 1° Ano</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="inclui_nome()">
         <script type="text/javascript" src="javascript.js"></script>
         <header>
-            <p>aNSKJCIQYBCKLJABCIcdsvdva</p>
+            <p class="headfootcont">aNSKJCIQYBCKLJABCIcdsvdva</p>
         </header>
 
         <main>
+
+            <h1 id="marcacao_nome"></h1>
+            <br>
+            <br>
+
             <h1 class="title_fisica">FÍSICA</h1>
             <h1 class="title">A Segunda Lei de Newton</h1>
 
@@ -170,13 +175,25 @@
                     <input type="radio" name="quest_4" value="errada">&nbsp e) a afirmação da questão está errada, pois qualquer que seja F o corpo estará acelerado porque sempre existe a aceleração da gravidade. <br>
                     <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p><br>
                 </div>
+                <p class="texto_exp">
+                    <span class="exem_ques">Questão 5)</span> Sobre um corpo de massa igual a 20 kg atuam duas forças de mesma direção e sentidos opostos que correspondem a 60 N e 20 N. Determine a aceleração em que esse objeto movimenta-se.
+                </p>
+                <div class="respostas">
+                    <input type="radio" name="quest_5" value="errada">&nbsp a) 1 m/s² <br>
+                    <input type="radio" name="quest_5" value="correta">&nbsp b) 2 m/s² <br>
+                    <input type="radio" name="quest_5" value="errada">&nbsp c) 4 m/s² <br>
+                    <input type="radio" name="quest_5" value="errada">&nbspd) 6 m/s² <br>
+                    <input type="radio" name="quest_5" value="errada">&nbsp e) 8 m/s² <br>
+                    <p id="resp_correta_5" class="verde"></p><p id="resp_errada_5" class="vermelho"></p><br>
+                </div>
+
                 <p id="quantos_acertos"></p>
                 <button type="button" onclick="funcao_resposta()">Responder</button>
             </form>
         </main>
 
         <footer>
-            <p>jsbdkjsbcfkdsbcfisdfbeusbfvkjbvk</p>
+            <p class="headfootcont">jsbdkjsbcfkdsbcfisdfbeusbfvkjbvk</p>
         </footer>
     </body>
 </html>
