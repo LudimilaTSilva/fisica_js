@@ -118,3 +118,18 @@ function funcao_resposta(){
     }
 
 }
+
+
+function calculo_sei_la() {
+    avel_a').value;
+    var b = document.getElementById('variavel_b').value;
+    var x = document.getElementById('resposinha').value;
+    var calculo = a*b;
+    alert(a);
+    if(calculo == x){
+        alert("Acertou");
+    }else{
+        alert("errou");
+    }
+    
+}
