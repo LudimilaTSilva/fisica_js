@@ -3,59 +3,92 @@
 }
 
 /*--------------------------------------GRID--------------------------------------*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-/*grideeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+body {
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "pri pri pri"
+        "rod rod rod";
+    grid-gap: 0px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+header{
+    grid-area: cab;
+}
+main{
+    grid-area: pri;
+}
+footer{
+    grid-area: rod;
+}
 /*--------------------------------------GRID--------------------------------------*/
 
 
 
 /*--------------------------------------HEADER--------------------------------------*/
 header {
-    background-color: red;
+    background-image: linear-gradient(to right, #3b5aa1 , #002371);
     min-height: 120px;
     position: relative;
     margin-bottom: 20px;
 }
 
-.headfootcont {
+.nomesite {
+    font-family: 'Agbalumo', sans-serif;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0px;
+    transform: translate(15%, -75%);
+    font-size: 60px;
+    display: block;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;;
 }
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(-15%, -50%);
+}
+
+nav a {
+    font-size: 26px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
 /*--------------------------------------HEADER--------------------------------------*/
 
 
 
 /*--------------------------------------BODY--------------------------------------*/
+body {
+    background-color: #ebf1ff;
+    font-family: 'Cairo', sans-serif;
+}
+
 main {
     text-align: center;
     justify-content: center;
@@ -63,8 +96,15 @@ main {
     margin-right: 100px;
 }
 
+.imagens {
+    border-radius: 15px;
+    box-shadow: 15px 15px #7795db;
+}
+
 .title_fisica {
-    font-size: 60px;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 80px;
+    text-shadow: 5px 5px #7795db;
 }
 
 .title {
@@ -104,9 +144,17 @@ main {
 
 /*--------------------------------------FOOTER--------------------------------------*/
 footer {
-    background-color: red;
+    background-image: linear-gradient(to right, #3b5aa1 , #002371);
+    color: #ffffff;
     min-height: 120px;
     position: relative;
-    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footcont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /*--------------------------------------FOOTER--------------------------------------*/
