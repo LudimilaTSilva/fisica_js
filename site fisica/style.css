@@ -113,13 +113,12 @@ main {
 }
 .texto_exp {
     font-size: 25px;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .exem_ques {
     font-weight: bold;
     font-size: 35px;
+    text-shadow: 3px 3px #7795db;
 }
 .resolucao {
     font-weight: bold;
@@ -128,6 +127,22 @@ main {
 .respostas {
     font-size: 25px;
     margin-top: 15px;
+    height: fit-content;
+}
+
+.botao {
+    font-size: 20px;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #3b5aa1 , #002371);
+    border-radius: 20px;
+    border: #00194e 5px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botao:hover {
+    cursor: pointer;
 }
 
 #carro {
@@ -139,6 +154,15 @@ main {
 }
 .vermelho {
     color: red;
+}
+
+.fonte {
+    font-size: 17px;
+    margin-top: 80px;
+}
+.fonte a {
+    text-decoration: underline;
+    color: #000000;
 }
 /*--------------------------------------BODY--------------------------------------*/
 
@@ -158,5 +182,14 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.siganos {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.sigatexto {
+    text-align: center;
 }
 /*--------------------------------------FOOTER--------------------------------------*/
